@@ -1,0 +1,25 @@
+{
+  "name": "country-exchange-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "dayjs": "^1.11.18",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-validator": "^6.15.0",
+    "mysql2": "^3.15.3",
+    "node-html-to-image": "^5.0.0",
+    "sequelize": "^6.37.7",
+    "sharp": "^0.34.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
